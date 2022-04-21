@@ -1,7 +1,6 @@
 from thingsboard_gateway.connectors.connector import Connector
 from pymodbus.client.sync import ModbusTcpClient
 from pymodbus.exceptions import ConnectionException
-import os
 import time
 import datetime
 
